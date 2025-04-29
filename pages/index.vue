@@ -1,13 +1,12 @@
-
 // pages/index.vue
 <template>
-  <div class="min-h-screen bg-gray-100 py-8">
-    <div class="max-w-md mx-auto bg-white rounded-lg shadow-md flex flex-col w-full h-full items-center justify-center overflow-hidden">
-      <div class="px-6 py-4 bg-indigo-600">
+  <div class="min-h-screen bg-gray-100 py-8 flex items-center justify-center">
+    <div class="w-full max-w-md mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+      <div class="px-6 py-4 bg-indigo-600 w-full">
         <h1 class="text-2xl font-bold text-white">My Todo List</h1>
       </div>
       
-      <div class="p-6">
+      <div class="p-6 w-full">
         <!-- Add Todo Form -->
         <div class="flex mb-6">
           <input
@@ -165,5 +164,3 @@ const clearCompleted = () => {
   todos.value = todos.value.filter(todo => !todo.completed);
 };
 </script>
-
-
