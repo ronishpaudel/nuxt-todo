@@ -23,7 +23,7 @@ bun install
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
+Start development server on `http://localhost:3000`:
 
 ```bash
 # npm
@@ -41,7 +41,7 @@ bun run dev
 
 ## Production
 
-Build the application for production:
+Build application for production:
 
 ```bash
 # npm
